@@ -1,4 +1,3 @@
-import'./header.css';
 import './OrdersPage.css';
 
 function OrdersPage() {
