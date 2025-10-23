@@ -1,17 +1,15 @@
 import Header from "../components/Header";
 import productos from '../productos.json'
+import axios from "axios";
 import "./HomePage.css";
 
 function HomePage() {
 
-  fetch('http://localhost:5000/productos')
+  axios.get('http://localhost:5000/productos')
     .then((response) => {
-      return response.json();
-    }).then((data) => {
-          console.log(data)
+      console.log(response.data)
     });
     
-
   return (
     <>
       <title>Ecommerce React 25234</title>
