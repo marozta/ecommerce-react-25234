@@ -3,6 +3,15 @@ import productos from '../productos.json'
 import "./HomePage.css";
 
 function HomePage() {
+
+  fetch('http://localhost:5000/productos')
+    .then((response) => {
+      return response.json();
+    }).then((data) => {
+          console.log(data)
+    });
+    
+
   return (
     <>
       <title>Ecommerce React 25234</title>
