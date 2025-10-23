@@ -1,7 +1,10 @@
-import Header from "../components/Header";
+import Header from "../../components/Header";
 // import productos from '../productos.json'
 import axios from "axios";
 import { useEffect, useState } from "react";
+import ProductsGrid from "./ProductsGrid";
+
+
 import "./HomePage.css";
 
 function HomePage({carrito}) {
@@ -15,7 +18,6 @@ function HomePage({carrito}) {
         setProductos(response.data)
     });
 
-
   }, []);
 
   return (
@@ -24,7 +26,8 @@ function HomePage({carrito}) {
 
       <Header carrito={carrito}/>
       <div className="home-page">
-        <div className="products-grid">
+        <ProductsGrid productos={productos}/>
+        {/* <div className="products-grid">
           {productos.map((producto) => {
             return (
               <div key={producto.id} className="product-container">
@@ -78,7 +81,7 @@ function HomePage({carrito}) {
             );
           })}
 
-        </div>
+        </div> */}
       </div>
     </>
   );

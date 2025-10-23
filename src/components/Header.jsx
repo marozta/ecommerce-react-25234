@@ -6,8 +6,7 @@ function Header({carrito}) {
   let cantidadTotal = 0;
 
   carrito.forEach((itemCarrito) => {
-    cantidadTotal += itemCarrito.cantidad;
-    console.log(cantidadTotal)
+    cantidadTotal += itemCarrito.cantidad
     
   });
 
@@ -16,7 +15,7 @@ function Header({carrito}) {
       <div className="header">
         <div className="left-section">
           <Link to="/" className="header-link">
-            <h3>TTech Store</h3>
+            <h3>Talento Store</h3>
           </Link>
         </div>
 
