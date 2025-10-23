@@ -1,20 +1,31 @@
 import Header from "../components/Header";
-import productos from '../productos.json'
+// import productos from '../productos.json'
 import axios from "axios";
+import { useEffect, useState } from "react";
 import "./HomePage.css";
 
 function HomePage() {
 
-  axios.get('http://localhost:5000/productos')
-    .then((response) => {
-      console.log(response.data)
+  const [productos, setProductos] = useState([]);
+  const [carrito, setCarrito] = useState([]);
+
+  useEffect(() => {
+    axios.get('http://localhost:5000/productos')
+      .then((response) => {
+        setProductos(response.data)
     });
-    
+
+    axios.get('http://localhost:5000/carrito')
+      .then((response) => {
+        setCarrito(response.data)
+      });
+  }, []);
+
   return (
     <>
       <title>Ecommerce React 25234</title>
 
-      <Header />
+      <Header carrito={carrito}/>
       <div className="home-page">
         <div className="products-grid">
           {productos.map((producto) => {

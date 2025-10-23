@@ -500,5 +500,66 @@
     "id": "50",
     "descripcion": "Monitor LED de 27 pulgadas con resolución Full HD y baja latencia."
   }
-]
+],
+"usuarios": [
+    {
+      "id": 1,
+      "nombre": "Martín Rodríguez",
+      "email": "martin@example.com"
+    }
+  ],
+
+  "carrito": [
+    { 
+      "id": 1,
+      "productoId": 1,
+      "cantidad": 1,
+      "usuarioId": 1
+    },
+    { 
+      "id": 2,
+      "productoId": 8,
+      "cantidad": 2,
+      "usuarioId": 1
+    },
+    { "id": 3,
+      "productoId": 16,
+      "cantidad": 1,
+      "usuarioId": 1
+    }
+  ],
+
+  "ordenes": [
+    {
+      "id": 1,
+      "usuarioId": 1,
+      "fecha": "2025-10-22T22:00:00Z",
+      "total": 623600,
+      "items": [
+        { "productoId": 1, "cantidad": 1, "precioUnitario": 430000 },
+        { "productoId": 8, "cantidad": 2, "precioUnitario": 17300 },
+        { "productoId": 16, "cantidad": 1, "precioUnitario": 159000 }
+      ],
+      "estado": "pagado"
+    }
+  ],
+
+  "tracking": [
+    {
+      "id": 1,
+      "ordenId": 1,
+      "estado": "en tránsito",
+      "numeroSeguimiento": "TRK-20251022-001",
+      "ubicacionActual": "Centro de distribución Buenos Aires",
+      "fechaActualizacion": "2025-10-22T22:30:00Z",
+      "historial": [
+        { "fecha": "2025-10-22T20:00:00Z", "evento": "Pedido confirmado y procesado" },
+        { "fecha": "2025-10-22T20:30:00Z", "evento": "Empaquetado completado" },
+        { "fecha": "2025-10-22T21:15:00Z", "evento": "Recolectado por el transportista" },
+        { "fecha": "2025-10-22T22:00:00Z", "evento": "En tránsito al centro de distribución" }
+      ]
+    }
+  ]
 }
+
+
