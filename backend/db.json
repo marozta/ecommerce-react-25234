@@ -1,4 +1,5 @@
-[
+{
+"productos": [
   {
     "nombre": "Teléfono Inteligente de Alto Rendimiento",
     "precio": 430000,
@@ -14,7 +15,7 @@
     "precio": 83000,
     "url_imagen": "/imgs/2_jarron_decoracion.jpg", 
     "categorias": ["Hogar", "Decoración"],
-    "ratingStars": 2.75,
+    "ratingStars": 3.00,
     "ratingCount": 8546,
     "id": "2",
     "descripcion": "Elemento decorativo moderno para embellecer cualquier espacio de tu casa."
@@ -24,7 +25,7 @@
     "precio": 41000,
     "url_imagen": "/imgs/3_camisa_formal.jpg",
     "categorias": ["Ropa", "Hombre"],
-    "ratingStars": 1.25,
+    "ratingStars": 2.00,
     "ratingCount": 511,
     "id": "3",
     "descripcion": "Camisa de vestir de algodón de alta calidad, perfecta para ocasiones formales."
@@ -34,7 +35,7 @@
     "precio": 13000,
     "url_imagen": "/imgs/4_snacks_crujientes.jpg",
     "categorias": ["Alimentos", "Snacks"],
-    "ratingStars": 3.75,
+    "ratingStars": 3.50,
     "ratingCount": 732,
     "id": "4",
     "descripcion": "Bolsa de snacks crujientes, ideal para compartir en reuniones o ver películas."    
@@ -44,7 +45,7 @@
     "precio": 6400,
     "url_imagen": "/imgs/5_cuerda_fitness_.jpg",
     "categorias": ["Deportes", "Fitness"],
-    "ratingStars": 0.50,
+    "ratingStars": 2.50,
     "ratingCount": 4589,
     "id": "5",
     "descripcion": "Accesorio de entrenamiento resistente, diseñado para maximizar tus ejercicios."
@@ -74,7 +75,7 @@
     "precio": 17300,
     "url_imagen": "/imgs/8_crema_facial.jpg",
     "categorias": ["Belleza", "Cuidado Personal"],
-    "ratingStars": 4.75,
+    "ratingStars": 4.50,
     "ratingCount": 6823,
     "id": "8",
     "descripcion": "Crema hidratante con ingredientes naturales para piel sensible y seca."
@@ -114,7 +115,7 @@
     "precio": 142000,
     "url_imagen": "/imgs/12_sartenes_antiadherentes.jpg",
     "categorias": ["Cocina", "Utensilios"],
-    "ratingStars": 4.25,
+    "ratingStars": 4.50,
     "ratingCount": 7682,
     "id": "12",
     "descripcion": "Set de sartenes antiadherentes con base de inducción."
@@ -124,7 +125,7 @@
     "precio": 9995,
     "url_imagen": "/imgs/13_novela_intriga.jpg",
     "categorias": ["Libros", "Ficción"],
-    "ratingStars": 0.00,
+    "ratingStars": 1.00,
     "ratingCount": 15,
     "id": "13",
     "descripcion": "Novela de intriga con una trama sorprendente y personajes memorables."
@@ -144,7 +145,7 @@
     "precio": 12000,
     "url_imagen": "/imgs/15_set_lapices.jpg",
     "categorias": ["Arte", "Materiales"],
-    "ratingStars": 1.75,
+    "ratingStars": 2.00,
     "ratingCount": 93,
     "id": "15",
     "descripcion": "Set de 12 lápices de colores profesionales con mina suave."
@@ -174,7 +175,7 @@
     "precio": 7900,
     "url_imagen": "/imgs/18_liquido_desinfectante.jpg",
     "categorias": ["Hogar", "Limpieza"],
-    "ratingStars": 4.75,
+    "ratingStars": 4.00,
     "ratingCount": 1104,
     "id": "18",
     "descripcion": "Líquido desinfectante multiusos con agradable aroma a limón."
@@ -194,7 +195,7 @@
     "precio": 8300,
     "url_imagen": "/imgs/20_puerto_hub.jpg",
     "categorias": ["Tecnología", "Accesorios"],
-    "ratingStars": 0.25,
+    "ratingStars": 0.50,
     "ratingCount": 7,
     "id": "20",
     "descripcion": "Hub USB de 4 puertos con transferencia de datos de alta velocidad."
@@ -224,7 +225,7 @@
     "precio": 244000,
     "url_imagen": "/imgs/23_taladro_bricolage.jpg",
     "categorias": ["Herramientas", "Bricolaje"],
-    "ratingStars": 3.75,
+    "ratingStars": 3.50,
     "ratingCount": 2450,
     "id": "23",
     "descripcion": "Taladro inalámbrico con batería recargable y múltiples velocidades."
@@ -234,7 +235,7 @@
     "precio": 43500,
     "url_imagen": "/imgs/24_juego_ps5.jpg",
     "categorias": ["Juegos", "Consolas"],
-    "ratingStars": 4.25,
+    "ratingStars": 4.00,
     "ratingCount": 5891,
     "id": "24",
     "descripcion": "Videojuego de aventuras en mundo abierto para la última consola."
@@ -264,7 +265,7 @@
     "precio": 14800,
     "url_imagen": "/imgs/27_leggins_deportivos.jpg",
     "categorias": ["Ropa", "Deportiva"],
-    "ratingStars": 3.25,
+    "ratingStars": 3.50,
     "ratingCount": 1980,
     "id": "27",
     "descripcion": "Leggings deportivos de alta elasticidad con tecnología de secado rápido."
@@ -274,7 +275,7 @@
     "precio": 28450,
     "url_imagen": "/imgs/28_tostadora.jpg",
     "categorias": ["Hogar", "Electrodomésticos"],
-    "ratingStars": 0.75,
+    "ratingStars": 1.00,
     "ratingCount": 42,
     "id": "28",
     "descripcion": "Tostadora de acero inoxidable con 7 niveles de tostado."
@@ -314,7 +315,7 @@
     "precio": 8100,
     "url_imagen": "/imgs/32_lampara_madera.jpg",
     "categorias": ["Muebles", "Dormitorio"],
-    "ratingStars": 4.75,
+    "ratingStars": 4.50,
     "ratingCount": 8871,
     "id": "32",
     "descripcion": "Lámpara de noche con luz LED cálida y base de madera maciza."
@@ -324,7 +325,7 @@
     "precio": 5330,
     "url_imagen": "/imgs/33_rascador_gatos.jpg",
     "categorias": ["Mascotas", "Gatos"],
-    "ratingStars": 2.25,
+    "ratingStars": 2.50,
     "ratingCount": 678,
     "id": "33",
     "descripcion": "Rascador de cartón corrugado para gatos, ayuda a mantener sus uñas sanas."
@@ -384,7 +385,7 @@
     "precio": 12500,
     "url_imagen": "/imgs/39_pinturas_acrilicas_.jpg",
     "categorias": ["Arte", "Pintura"],
-    "ratingStars": 1.75,
+    "ratingStars": 2.50,
     "ratingCount": 150,
     "id": "39",
     "descripcion": "Set de pinturas acrílicas con 24 colores vibrantes y duraderos."
@@ -424,7 +425,7 @@
     "precio": 2700,
     "url_imagen": "/imgs/43_juego_cartas.jpg",
     "categorias": ["Juegos", "Cartas"],
-    "ratingStars": 4.25,
+    "ratingStars": 4.00,
     "ratingCount": 880,
     "id": "43",
     "descripcion": "Juego de cartas estratégico y rápido, ideal para 2 a 4 jugadores."
@@ -434,7 +435,7 @@
     "precio": 38300,
     "url_imagen": "/imgs/44_chaqueta_ninos.jpg",
     "categorias": ["Ropa", "Niños"],
-    "ratingStars": 2.75,
+    "ratingStars": 3.00,
     "ratingCount": 451,
     "id": "44",
     "descripcion": "Chaqueta impermeable con capucha para niños, disponible en varios colores."
@@ -444,7 +445,7 @@
     "precio": 3900,
     "url_imagen": "/imgs/45_difusor_aceites.jpg",
     "categorias": ["Belleza", "Aromas"],
-    "ratingStars": 4.75,
+    "ratingStars": 4.50,
     "ratingCount": 9005,
     "id": "45",
     "descripcion": "Difusor de aceites esenciales con luz LED y temporizador."
@@ -454,7 +455,7 @@
     "precio": 24500,
     "url_imagen": "/imgs/46_casco_bicicleta.jpg",
     "categorias": ["Deportes", "Ciclismo"],
-    "ratingStars": 1.25,
+    "ratingStars": 1.50,
     "ratingCount": 105,
     "id": "46",
     "descripcion": "Casco de bicicleta ligero y ventilado con sistema de ajuste seguro."
@@ -494,9 +495,10 @@
     "precio": 194000,
     "url_imagen": "/imgs/50_monitor_led.jpg",
     "categorias": ["Tecnología", "Monitores"],
-    "ratingStars": 1.50,
+    "ratingStars": 2.50,
     "ratingCount": 189,
     "id": "50",
     "descripcion": "Monitor LED de 27 pulgadas con resolución Full HD y baja latencia."
   }
 ]
+}

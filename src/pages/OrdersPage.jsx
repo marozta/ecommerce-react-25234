@@ -22,13 +22,13 @@ function OrdersPage() {
 
         <div className="right-section">
           <a className="orders-link header-link" href="/orders">
-            <span className="orders-text">Orders</span>
+            <span className="orders-text">Ordenes</span>
           </a>
 
           <a className="cart-link header-link" href="/checkout">
             <img className="cart-icon" src="images/icons/cart-icon.png" />
             <div className="cart-quantity">3</div>
-            <div className="cart-text">Cart</div>
+            <div className="cart-text">Carrito</div>
           </a>
         </div>
       </div>
