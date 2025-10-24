@@ -19,7 +19,7 @@ function ProductGrid({productos}) {
               <div className="product-rating-container">
                 <img
                   className="product-rating-stars"
-                  src={`images/ratings/rating-${producto.ratingStars * 10}.png`}
+                  src={`imgs/ratings/rating-${producto.ratingStars * 10}.png`}
                 />
                 <div className="product-rating-count link-primary">
                   {producto.ratingCount}
@@ -47,7 +47,7 @@ function ProductGrid({productos}) {
 
               <div className="added-to-cart">
                 <img src="images/icons/checkmark.png" />
-                Added
+                Agregado
               </div>
 
               <button className="add-to-cart-button button-primary" 

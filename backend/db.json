@@ -10,7 +10,7 @@
       ],
       "ratingStars": 4.5,
       "ratingCount": 2189,
-      "id": "1",
+      "product_Id": "1",
       "descripcion": "Un dispositivo esencial con rendimiento de alta velocidad y diseño ergonómico."
     },
     {
@@ -23,7 +23,7 @@
       ],
       "ratingStars": 3,
       "ratingCount": 8546,
-      "id": "2",
+      "product_Id": "2",
       "descripcion": "Elemento decorativo moderno para embellecer cualquier espacio de tu casa."
     },
     {
@@ -36,7 +36,7 @@
       ],
       "ratingStars": 2,
       "ratingCount": 511,
-      "id": "3",
+      "product_Id": "3",
       "descripcion": "Camisa de vestir de algodón de alta calidad, perfecta para ocasiones formales."
     },
     {
@@ -49,7 +49,7 @@
       ],
       "ratingStars": 3.5,
       "ratingCount": 732,
-      "id": "4",
+      "product_Id": "4",
       "descripcion": "Bolsa de snacks crujientes, ideal para compartir en reuniones o ver películas."
     },
     {
@@ -62,7 +62,7 @@
       ],
       "ratingStars": 2.5,
       "ratingCount": 4589,
-      "id": "5",
+      "product_Id": "5",
       "descripcion": "Accesorio de entrenamiento resistente, diseñado para maximizar tus ejercicios."
     },
     {
@@ -75,7 +75,7 @@
       ],
       "ratingStars": 4,
       "ratingCount": 9811,
-      "id": "6",
+      "product_Id": "6",
       "descripcion": "Licencia de software avanzado para productividad y gestión de proyectos."
     },
     {
@@ -88,7 +88,7 @@
       ],
       "ratingStars": 2,
       "ratingCount": 124,
-      "id": "7",
+      "product_Id": "7",
       "descripcion": "Divertido juego de mesa familiar, recomendado para mayores de 8 años."
     },
     {
@@ -101,7 +101,7 @@
       ],
       "ratingStars": 4.5,
       "ratingCount": 6823,
-      "id": "8",
+      "product_Id": "8",
       "descripcion": "Crema hidratante con ingredientes naturales para piel sensible y seca."
     },
     {
@@ -114,7 +114,7 @@
       ],
       "ratingStars": 3,
       "ratingCount": 521,
-      "id": "9",
+      "product_Id": "9",
       "descripcion": "Silla de oficina ergonómica con soporte lumbar ajustable."
     },
     {
@@ -127,7 +127,7 @@
       ],
       "ratingStars": 5,
       "ratingCount": 9175,
-      "id": "10",
+      "product_Id": "10",
       "descripcion": "Kit completo de herramientas de jardinería, fabricado en acero inoxidable."
     },
     {
@@ -140,7 +140,7 @@
       ],
       "ratingStars": 1.5,
       "ratingCount": 352,
-      "id": "11",
+      "product_Id": "11",
       "descripcion": "Filtro de aceite de alto rendimiento compatible con varios modelos de vehículos."
     },
     {
@@ -153,7 +153,7 @@
       ],
       "ratingStars": 4.5,
       "ratingCount": 7682,
-      "id": "12",
+      "product_Id": "12",
       "descripcion": "Set de sartenes antiadherentes con base de inducción."
     },
     {
@@ -166,7 +166,7 @@
       ],
       "ratingStars": 1,
       "ratingCount": 15,
-      "id": "13",
+      "product_Id": "13",
       "descripcion": "Novela de intriga con una trama sorprendente y personajes memorables."
     },
     {
@@ -179,7 +179,7 @@
       ],
       "ratingStars": 3.5,
       "ratingCount": 4219,
-      "id": "14",
+      "product_Id": "14",
       "descripcion": "Cama ortopédica para perro grande, muy cómoda y fácil de lavar."
     },
     {
@@ -192,7 +192,7 @@
       ],
       "ratingStars": 2,
       "ratingCount": 93,
-      "id": "15",
+      "product_Id": "15",
       "descripcion": "Set de 12 lápices de colores profesionales con mina suave."
     },
     {
@@ -205,7 +205,7 @@
       ],
       "ratingStars": 4,
       "ratingCount": 3218,
-      "id": "16",
+      "product_Id": "16",
       "descripcion": "Auriculares inalámbricos con cancelación de ruido y batería de larga duración."
     },
     {
@@ -218,7 +218,7 @@
       ],
       "ratingStars": 2.5,
       "ratingCount": 5001,
-      "id": "17",
+      "product_Id": "17",
       "descripcion": "Vestido casual de verano, ligero y con estampado floral."
     },
     {
@@ -231,7 +231,7 @@
       ],
       "ratingStars": 4,
       "ratingCount": 1104,
-      "id": "18",
+      "product_Id": "18",
       "descripcion": "Líquido desinfectante multiusos con agradable aroma a limón."
     },
     {
@@ -244,7 +244,7 @@
       ],
       "ratingStars": 3,
       "ratingCount": 6390,
-      "id": "19",
+      "product_Id": "19",
       "descripcion": "Tienda de campaña para 4 personas, fácil de montar y resistente al agua."
     },
     {
@@ -257,7 +257,7 @@
       ],
       "ratingStars": 0.5,
       "ratingCount": 7,
-      "id": "20",
+      "product_Id": "20",
       "descripcion": "Hub USB de 4 puertos con transferencia de datos de alta velocidad."
     },
     {
@@ -270,7 +270,7 @@
       ],
       "ratingStars": 5,
       "ratingCount": 9987,
-      "id": "21",
+      "product_Id": "21",
       "descripcion": "Elegante collar de plata esterlina con un colgante de piedra preciosa."
     },
     {
@@ -283,7 +283,7 @@
       ],
       "ratingStars": 1,
       "ratingCount": 130,
-      "id": "22",
+      "product_Id": "22",
       "descripcion": "Suplemento de vitaminas y minerales para reforzar el sistema inmunológico."
     },
     {
@@ -296,7 +296,7 @@
       ],
       "ratingStars": 3.5,
       "ratingCount": 2450,
-      "id": "23",
+      "product_Id": "23",
       "descripcion": "Taladro inalámbrico con batería recargable y múltiples velocidades."
     },
     {
@@ -309,7 +309,7 @@
       ],
       "ratingStars": 4,
       "ratingCount": 5891,
-      "id": "24",
+      "product_Id": "24",
       "descripcion": "Videojuego de aventuras en mundo abierto para la última consola."
     },
     {
@@ -322,7 +322,7 @@
       ],
       "ratingStars": 2,
       "ratingCount": 331,
-      "id": "25",
+      "product_Id": "25",
       "descripcion": "Aceite de oliva virgen extra de primera prensa en frío, 1 litro."
     },
     {
@@ -335,7 +335,7 @@
       ],
       "ratingStars": 4.5,
       "ratingCount": 8103,
-      "id": "26",
+      "product_Id": "26",
       "descripcion": "Cámara digital compacta con zoom óptico de 10x y grabación HD."
     },
     {
@@ -348,7 +348,7 @@
       ],
       "ratingStars": 3.5,
       "ratingCount": 1980,
-      "id": "27",
+      "product_Id": "27",
       "descripcion": "Leggings deportivos de alta elasticidad con tecnología de secado rápido."
     },
     {
@@ -361,7 +361,7 @@
       ],
       "ratingStars": 1,
       "ratingCount": 42,
-      "id": "28",
+      "product_Id": "28",
       "descripcion": "Tostadora de acero inoxidable con 7 niveles de tostado."
     },
     {
@@ -374,7 +374,7 @@
       ],
       "ratingStars": 5,
       "ratingCount": 7123,
-      "id": "29",
+      "product_Id": "29",
       "descripcion": "Bolígrafo de gel de tinta suave y punta fina para una escritura fluida."
     },
     {
@@ -387,7 +387,7 @@
       ],
       "ratingStars": 1.5,
       "ratingCount": 254,
-      "id": "30",
+      "product_Id": "30",
       "descripcion": "Set de bloques de construcción con más de 500 piezas, para niños creativos."
     },
     {
@@ -400,7 +400,7 @@
       ],
       "ratingStars": 3,
       "ratingCount": 5609,
-      "id": "31",
+      "product_Id": "31",
       "descripcion": "Paleta de sombras de ojos con 12 tonos mate y brillantes."
     },
     {
@@ -413,7 +413,7 @@
       ],
       "ratingStars": 4.5,
       "ratingCount": 8871,
-      "id": "32",
+      "product_Id": "32",
       "descripcion": "Lámpara de noche con luz LED cálida y base de madera maciza."
     },
     {
@@ -426,7 +426,7 @@
       ],
       "ratingStars": 2.5,
       "ratingCount": 678,
-      "id": "33",
+      "product_Id": "33",
       "descripcion": "Rascador de cartón corrugado para gatos, ayuda a mantener sus uñas sanas."
     },
     {
@@ -439,7 +439,7 @@
       ],
       "ratingStars": 4,
       "ratingCount": 4012,
-      "id": "34",
+      "product_Id": "34",
       "descripcion": "Gafas de natación profesionales con anti-vaho y protección UV."
     },
     {
@@ -452,7 +452,7 @@
       ],
       "ratingStars": 1,
       "ratingCount": 89,
-      "id": "35",
+      "product_Id": "35",
       "descripcion": "Libro de autoayuda sobre gestión del tiempo y productividad personal."
     },
     {
@@ -465,7 +465,7 @@
       ],
       "ratingStars": 3.5,
       "ratingCount": 3540,
-      "id": "36",
+      "product_Id": "36",
       "descripcion": "Disco duro externo de 2TB con conexión USB 3.0 para copias de seguridad."
     },
     {
@@ -478,7 +478,7 @@
       ],
       "ratingStars": 2.5,
       "ratingCount": 2005,
-      "id": "37",
+      "product_Id": "37",
       "descripcion": "Batidora eléctrica de mano con 5 velocidades y varios accesorios."
     },
     {
@@ -491,7 +491,7 @@
       ],
       "ratingStars": 4.5,
       "ratingCount": 9210,
-      "id": "38",
+      "product_Id": "38",
       "descripcion": "Kit de limpieza y pulido para el interior y exterior del coche."
     },
     {
@@ -504,7 +504,7 @@
       ],
       "ratingStars": 2.5,
       "ratingCount": 150,
-      "id": "39",
+      "product_Id": "39",
       "descripcion": "Set de pinturas acrílicas con 24 colores vibrantes y duraderos."
     },
     {
@@ -517,7 +517,7 @@
       ],
       "ratingStars": 3,
       "ratingCount": 7001,
-      "id": "40",
+      "product_Id": "40",
       "descripcion": "Juego de sábanas de algodón de 400 hilos para cama doble."
     },
     {
@@ -530,7 +530,7 @@
       ],
       "ratingStars": 5,
       "ratingCount": 5510,
-      "id": "41",
+      "product_Id": "41",
       "descripcion": "Reloj inteligente con monitor de frecuencia cardíaca y GPS integrado."
     },
     {
@@ -543,7 +543,7 @@
       ],
       "ratingStars": 0.5,
       "ratingCount": 31,
-      "id": "42",
+      "product_Id": "42",
       "descripcion": "Pack de 6 botellas de agua mineral natural de manantial."
     },
     {
@@ -556,7 +556,7 @@
       ],
       "ratingStars": 4,
       "ratingCount": 880,
-      "id": "43",
+      "product_Id": "43",
       "descripcion": "Juego de cartas estratégico y rápido, ideal para 2 a 4 jugadores."
     },
     {
@@ -569,7 +569,7 @@
       ],
       "ratingStars": 3,
       "ratingCount": 451,
-      "id": "44",
+      "product_Id": "44",
       "descripcion": "Chaqueta impermeable con capucha para niños, disponible en varios colores."
     },
     {
@@ -582,7 +582,7 @@
       ],
       "ratingStars": 4.5,
       "ratingCount": 9005,
-      "id": "45",
+      "product_Id": "45",
       "descripcion": "Difusor de aceites esenciales con luz LED y temporizador."
     },
     {
@@ -595,7 +595,7 @@
       ],
       "ratingStars": 1.5,
       "ratingCount": 105,
-      "id": "46",
+      "product_Id": "46",
       "descripcion": "Casco de bicicleta ligero y ventilado con sistema de ajuste seguro."
     },
     {
@@ -608,7 +608,7 @@
       ],
       "ratingStars": 3.5,
       "ratingCount": 6340,
-      "id": "47",
+      "product_Id": "47",
       "descripcion": "Suscripción de prueba gratuita por un mes a nuestra plataforma de streaming."
     },
     {
@@ -621,7 +621,7 @@
       ],
       "ratingStars": 2,
       "ratingCount": 2301,
-      "id": "48",
+      "product_Id": "48",
       "descripcion": "Set de toallas de baño de algodón egipcio, ultra suaves y absorbentes."
     },
     {
@@ -634,7 +634,7 @@
       ],
       "ratingStars": 4,
       "ratingCount": 542,
-      "id": "49",
+      "product_Id": "49",
       "descripcion": "Peluche suave y abrazable con diseño de animal, ideal para bebés."
     },
     {
@@ -647,61 +647,61 @@
       ],
       "ratingStars": 2.5,
       "ratingCount": 189,
-      "id": "50",
+      "product_Id": "50",
       "descripcion": "Monitor LED de 27 pulgadas con resolución Full HD y baja latencia."
     }
   ],
   "usuarios": [
     {
-      "id": "1",
+      "user_Id": "1",
       "nombre": "Martín Rodríguez",
       "email": "martin@example.com"
     }
   ],
   "carrito": [
     {
-      "id": "1",
-      "productoId": 1,
+      "cart_Id": "1",
+      "product_Id": 1,
       "cantidad": 1,
-      "usuarioId": 1
+      "user_Id": 1
     },
     {
-      "id": "2",
-      "productoId": 8,
+      "cart_Id": "2",
+      "product_Id": 8,
       "cantidad": 2,
-      "usuarioId": 1
+      "user_Id": 1
     },
     {
-      "id": "3",
-      "productoId": 16,
+      "cart_Id": "3",
+      "product_Id": 16,
       "cantidad": 1,
-      "usuarioId": 1
+      "user_Id": 1
     },
     {
-      "id": "bcf5",
-      "productId": "1",
+      "cart_Id": "bcf5",
+      "product_Id": "1",
       "cantidad": 1
     }
   ],
   "ordenes": [
     {
-      "id": "1",
-      "usuarioId": 1,
+      "order_Id": "1",
+      "user_Id": 1,
       "fecha": "2025-10-22T22:00:00Z",
       "total": 623600,
       "items": [
         {
-          "productoId": 1,
+          "product_Id": 1,
           "cantidad": 1,
           "precioUnitario": 430000
         },
         {
-          "productoId": 8,
+          "product_Id": 8,
           "cantidad": 2,
           "precioUnitario": 17300
         },
         {
-          "productoId": 16,
+          "product_Id": 16,
           "cantidad": 1,
           "precioUnitario": 159000
         }
@@ -711,8 +711,8 @@
   ],
   "tracking": [
     {
-      "id": "1",
-      "ordenId": 1,
+      "track_Id": "1",
+      "order_Id": 1,
       "estado": "en tránsito",
       "numeroSeguimiento": "TRK-20251022-001",
       "ubicacionActual": "Centro de distribución Buenos Aires",

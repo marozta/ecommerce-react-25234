@@ -7,8 +7,7 @@ function OrdersPage() {
       <div className="header">
         <div className="left-section">
           <a href="/" className="header-link">
-            <img className="logo" src="images/logo-white.png" />
-            <img className="mobile-logo" src="images/mobile-logo-white.png" />
+            <h3>Talento Store</h3>
           </a>
         </div>
 
@@ -16,7 +15,7 @@ function OrdersPage() {
           <input className="search-bar" type="text" placeholder="Search" />
 
           <button className="search-button">
-            <img className="search-icon" src="images/icons/search-icon.png" />
+            <img className="search-icon" src="imgs/icons/search-icon.png" />
           </button>
         </div>
 
@@ -26,7 +25,7 @@ function OrdersPage() {
           </a>
 
           <a className="cart-link header-link" href="/checkout">
-            <img className="cart-icon" src="images/icons/cart-icon.png" />
+            <img className="cart-icon" src="imgs/icons/cart-icon.png" />
             <div className="cart-quantity">3</div>
             <div className="cart-text">Carrito</div>
           </a>
@@ -34,7 +33,7 @@ function OrdersPage() {
       </div>
 
       <div className="orders-page">
-        <div className="page-title">Your Orders</div>
+        <div className="page-title">Tus Ordenes</div>
 
         <div className="orders-grid">
           <div className="order-container">
