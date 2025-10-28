@@ -1,9 +1,7 @@
 import Header from "../../components/Header";
-// import productos from '../productos.json'
 import axios from "axios";
 import { useEffect, useState } from "react";
 import ProductsGrid from "./ProductsGrid";
-
 
 import "./HomePage.css";
 
@@ -12,7 +10,7 @@ function HomePage({carrito}) {
   const [productos, setProductos] = useState([]);
   
   useEffect(() => {
-    axios.get('http://localhost:5000/productos')
+    axios.get('http://localhost:5000/producto') 
       .then((response) => {
         setProductos(response.data)
     });
