@@ -151,7 +151,7 @@ function CheckoutPage({ carrito }) {
             </div>
 
             <button className="place-order-button button-primary">
-              Realice su pedido
+              Haga su pedido
             </button>
           </div>
         </div>

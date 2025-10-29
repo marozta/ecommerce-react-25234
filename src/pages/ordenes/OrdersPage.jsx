@@ -3,7 +3,7 @@ import './OrdersPage.css';
 function OrdersPage() {
   return (
     <>
-    <title>Orders</title>
+    <title>Ordenes</title>
       <div className="header">
         <div className="left-section">
           <a href="/" className="header-link">
@@ -40,7 +40,7 @@ function OrdersPage() {
             <div className="order-header">
               <div className="order-header-left-section">
                 <div className="order-date">
-                  <div className="order-header-label">Order Placed:</div>
+                  <div className="order-header-label">Fecha pedido:</div>
                   <div>August 12</div>
                 </div>
                 <div className="order-total">
@@ -50,7 +50,7 @@ function OrdersPage() {
               </div>
 
               <div className="order-header-right-section">
-                <div className="order-header-label">Order ID:</div>
+                <div className="order-header-label">Orden ID:</div>
                 <div>27cba69d-4c3d-4098-b42d-ac7fa62b7664</div>
               </div>
             </div>
@@ -65,15 +65,15 @@ function OrdersPage() {
                   Black and Gray Athletic Cotton Socks - 6 Pairs
                 </div>
                 <div className="product-delivery-date">
-                  Arriving on: August 15
+                  Llega el día: August 15
                 </div>
-                <div className="product-quantity">Quantity: 1</div>
+                <div className="product-quantity">Cantidad: 1</div>
                 <button className="buy-again-button button-primary">
                   <img
                     className="buy-again-icon"
                     src="images/icons/buy-again.png"
                   />
-                  <span className="buy-again-message">Add to Cart</span>
+                  <span className="buy-again-message">Agregar al carrito</span>
                 </button>
               </div>
 
