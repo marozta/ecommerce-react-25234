@@ -2,6 +2,7 @@ import './checkout-header.css'
 import "./CheckoutPage.css";
 
 function CheckoutPage({ carrito }) {
+
   return (
     <>
       <title>Checkout</title>
@@ -28,7 +29,7 @@ function CheckoutPage({ carrito }) {
       </div>
 
       <div className="checkout-page">
-        <div className="page-title">Review your order</div>
+        <div className="page-title">Revise su orden</div>
 
         <div className="checkout-grid">
           <div className="order-summary">
@@ -36,36 +37,36 @@ function CheckoutPage({ carrito }) {
               return (
                 <div key={itemCarrito.productoId} className="cart-item-container">
                   <div className="delivery-date">
-                    Delivery date: Tuesday, June 21
+                    Día de entrega: Martes, Noviembre 11
                   </div>
 
                   <div className="cart-item-details-grid">
                     <img
                       className="product-image"
-                      src="images/products/athletic-cotton-socks-6-pairs.jpg"
+                      src={itemCarrito.producto.url_imagen}
                     />
 
                     <div className="cart-item-details">
                       <div className="product-name">
-                        Black and Gray Athletic Cotton Socks - 6 Pairs
+                        {itemCarrito.producto.nombre}
                       </div>
-                      <div className="product-price">$10.90</div>
+                      <div className="product-price">${itemCarrito.producto.precio}</div>
                       <div className="product-quantity">
                         <span>
-                          Quantity: <span className="quantity-label">2</span>
+                          Cantidad: <span className="quantity-label">{itemCarrito.cantidad}</span>
                         </span>
                         <span className="update-quantity-link link-primary">
-                          Update
+                          Actualizar
                         </span>
                         <span className="delete-quantity-link link-primary">
-                          Delete
+                          Eliminar
                         </span>
                       </div>
                     </div>
 
                     <div className="delivery-options">
                       <div className="delivery-options-title">
-                        Choose a delivery option:
+                        Elige un opción de entrega:
                       </div>
                       <div className="delivery-option">
                         <input
@@ -76,10 +77,10 @@ function CheckoutPage({ carrito }) {
                         />
                         <div>
                           <div className="delivery-option-date">
-                            Tuesday, June 21
+                            Martes, Noviembre 11
                           </div>
                           <div className="delivery-option-price">
-                            FREE Shipping
+                            Envío GRATIS
                           </div>
                         </div>
                       </div>
@@ -91,10 +92,10 @@ function CheckoutPage({ carrito }) {
                         />
                         <div>
                           <div className="delivery-option-date">
-                            Wednesday, June 15
+                            Lunes, Noviembre 10
                           </div>
                           <div className="delivery-option-price">
-                            $4.99 - Shipping
+                            $4.99 - Envío
                           </div>
                         </div>
                       </div>
@@ -106,7 +107,7 @@ function CheckoutPage({ carrito }) {
                         />
                         <div>
                           <div className="delivery-option-date">
-                            Monday, June 13
+                            Viernes, Noviembre 7
                           </div>
                           <div className="delivery-option-price">
                             $9.99 - Shipping

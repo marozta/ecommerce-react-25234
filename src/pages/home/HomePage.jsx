@@ -10,7 +10,7 @@ function HomePage({carrito}) {
   const [productos, setProductos] = useState([]);
   
   useEffect(() => {
-    axios.get('http://localhost:5000/producto') 
+    axios.get('http://localhost:5000/productos') 
       .then((response) => {
         setProductos(response.data)
     });

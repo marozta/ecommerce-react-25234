@@ -6,9 +6,10 @@ function Product({producto}) {
 
     const [ cantidad, setCantidad ] = useState(1);
 
+
   return (
 
-    <div key={producto.id} className="product-container">
+    <div className="product-container">
       <div className="product-image-container">
         <img className="product-image" src={producto.url_imagen} />
       </div>
@@ -26,8 +27,9 @@ function Product({producto}) {
           {producto.ratingCount}
         </div>
       </div>
+      {/*  */}
 
-      <div className="product-price">{producto.precio}</div>
+      <div className="product-price">{producto.precio}</div> {/*{formatmoney(producto.precio)}*/}
 
       <div className="product-quantity-container">
         <select
@@ -35,7 +37,6 @@ function Product({producto}) {
           onChange={(event) => {
             const cantidadSelecionada = Number(event.target.value);
             setCantidad(cantidadSelecionada);
-            console.log(cantidadSelecionada);
           }}
         >
           <option value="1">1</option>
@@ -61,9 +62,9 @@ function Product({producto}) {
       <button
         className="add-to-cart-button button-primary"
         onClick={() => {
-          axios.post("http://localhost:5000/carrito", {
+          axios.post("http://localhost:5000/carritos", {
             productoId: producto.id,
-            cantidad: 1,
+            cantidad: cantidad,
             usuarioId: 1
           });
         }}

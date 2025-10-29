@@ -12,7 +12,7 @@ function App() {
   const [carrito, setCarrito] = useState([]);
 
     useEffect(() => {
-      axios.get('http://localhost:5000/carrito?expand=producto')
+      axios.get('http://localhost:5000/carritos?_expand=producto')
       .then((response) => {
         setCarrito(response.data)
       });
