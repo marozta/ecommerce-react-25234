@@ -123,7 +123,7 @@ function CheckoutPage({ carrito }) {
           </div>
 
           <div className="payment-summary">
-            <div className="payment-summary-title">Payment Summary</div>
+            <div className="payment-summary-title">Resumen de la compra</div>
 
             <div className="payment-summary-row">
               <div>Items (3):</div>
@@ -131,27 +131,27 @@ function CheckoutPage({ carrito }) {
             </div>
 
             <div className="payment-summary-row">
-              <div>Shipping &amp; handling:</div>
+              <div>Preparación &amp; Envío:</div>
               <div className="payment-summary-money">$4.99</div>
             </div>
 
             <div className="payment-summary-row subtotal-row">
-              <div>Total before tax:</div>
+              <div>Total sin impuestos:</div>
               <div className="payment-summary-money">$47.74</div>
             </div>
 
             <div className="payment-summary-row">
-              <div>Estimated tax (10%):</div>
-              <div className="payment-summary-money">$4.77</div>
+              <div>Impuestos estimados (21%):</div>
+              <div className="payment-summary-money">$10.02</div>
             </div>
 
             <div className="payment-summary-row total-row">
-              <div>Order total:</div>
-              <div className="payment-summary-money">$52.51</div>
+              <div>Total de la orden:</div>
+              <div className="payment-summary-money">$57.76</div>
             </div>
 
             <button className="place-order-button button-primary">
-              Place your order
+              Realice su pedido
             </button>
           </div>
         </div>
