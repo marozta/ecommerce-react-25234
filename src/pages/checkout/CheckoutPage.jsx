@@ -1,3 +1,4 @@
+import formatmoney from '../../utils/money';
 import './checkout-header.css'
 import "./CheckoutPage.css";
 
@@ -50,7 +51,7 @@ function CheckoutPage({ carrito }) {
                       <div className="product-name">
                         {itemCarrito.producto.nombre}
                       </div>
-                      <div className="product-price">${itemCarrito.producto.precio}</div>
+                      <div className="product-price">{formatmoney(itemCarrito.producto.precio)}</div>
                       <div className="product-quantity">
                         <span>
                           Cantidad: <span className="quantity-label">{itemCarrito.cantidad}</span>

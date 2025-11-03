@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import formatmoney from '../../utils/money';
 import axios from "axios";
 
 function Product({producto}) {
@@ -29,7 +30,7 @@ function Product({producto}) {
       </div>
       {/*  */}
 
-      <div className="product-price">{producto.precio}</div> {/*{formatmoney(producto.precio)}*/}
+      <div className="product-price">{formatmoney(producto.precio)}</div> {/*{formatmoney(producto.precio)}*/}
 
       <div className="product-quantity-container">
         <select

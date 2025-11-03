@@ -50,7 +50,7 @@ function OrdersPage() {
               </div>
 
               <div className="order-header-right-section">
-                <div className="order-header-label">Orden ID:</div>
+                <div className="order-header-label">Número de orden:</div>
                 <div>27cba69d-4c3d-4098-b42d-ac7fa62b7664</div>
               </div>
             </div>
@@ -80,7 +80,7 @@ function OrdersPage() {
               <div className="product-actions">
                 <a href="/tracking">
                   <button className="track-package-button button-secondary">
-                    Track package
+                    Seguimiento del pedido
                   </button>
                 </a>
               </div>
@@ -94,22 +94,22 @@ function OrdersPage() {
                   Adults Plain Cotton T-Shirt - 2 Pack
                 </div>
                 <div className="product-delivery-date">
-                  Arriving on: August 19
+                  Llega el día: August 19
                 </div>
-                <div className="product-quantity">Quantity: 2</div>
+                <div className="product-quantity">Cantidad: 2</div>
                 <button className="buy-again-button button-primary">
                   <img
                     className="buy-again-icon"
                     src="images/icons/buy-again.png"
                   />
-                  <span className="buy-again-message">Add to Cart</span>
+                  <span className="buy-again-message">Agregar al carrito</span>
                 </button>
               </div>
 
               <div className="product-actions">
                 <a href="/tracking">
                   <button className="track-package-button button-secondary">
-                    Track package
+                    Seguimiento del pedido
                   </button>
                 </a>
               </div>
@@ -120,7 +120,7 @@ function OrdersPage() {
             <div className="order-header">
               <div className="order-header-left-section">
                 <div className="order-date">
-                  <div className="order-header-label">Order Placed:</div>
+                  <div className="order-header-label">Fecha pedido:</div>
                   <div>June 10</div>
                 </div>
                 <div className="order-total">
@@ -130,7 +130,7 @@ function OrdersPage() {
               </div>
 
               <div className="order-header-right-section">
-                <div className="order-header-label">Order ID:</div>
+                <div className="order-header-label">Número de orden:</div>
                 <div>b6b6c212-d30e-4d4a-805d-90b52ce6b37d</div>
               </div>
             </div>
@@ -143,22 +143,22 @@ function OrdersPage() {
               <div className="product-details">
                 <div className="product-name">Intermediate Size Basketball</div>
                 <div className="product-delivery-date">
-                  Arriving on: June 17
+                  Llega el día: June 17
                 </div>
-                <div className="product-quantity">Quantity: 2</div>
+                <div className="product-quantity">Cantidad: 2</div>
                 <button className="buy-again-button button-primary">
                   <img
                     className="buy-again-icon"
                     src="images/icons/buy-again.png"
                   />
-                  <span className="buy-again-message">Add to Cart</span>
+                  <span className="buy-again-message">Agregar al carrito</span>
                 </button>
               </div>
 
               <div className="product-actions">
                 <a href="/tracking">
                   <button className="track-package-button button-secondary">
-                    Track package
+                    Seguimiento del pedido
                   </button>
                 </a>
               </div>
